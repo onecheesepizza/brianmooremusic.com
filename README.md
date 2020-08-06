@@ -1,9 +1,9 @@
 # brianmooremusic.com 
-🎧media portfolio
+🎧 media portfolio
 
-👍built with [Svelte](https://svelte.dev/)  
-📦bundled with [Rollup](https://rollupjs.org/)  
-🚀deployed to [Netlify](https://www.netlify.com/)  
+👍 built with [Svelte](https://svelte.dev/)  
+📦 bundled with [Rollup](https://rollupjs.org/)  
+🚀 deployed to [Netlify](https://www.netlify.com/)  
 
 live site: [brianmooremusic.com](https://brianmooremusic.com/)  
 
