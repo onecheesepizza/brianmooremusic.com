@@ -14,6 +14,7 @@
             {#each media.audio as file}
             <audio 
             controls
+            controlsList="nodownload"
             preload="none">
                 <source src="/media/audio/{file}">
                 <p>Your browser does not support HTML5 audio.</p>
