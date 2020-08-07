@@ -4,6 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "deploy": "git push && netlify watch",
     "start": "sirv public"
   },
   "devDependencies": {
