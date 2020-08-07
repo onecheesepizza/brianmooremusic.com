@@ -7,6 +7,7 @@
 
 live site: [brianmooremusic.com](https://brianmooremusic.com/)  
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/74b8f88e-39d3-4934-bf61-ab8e508c68e2/deploy-status)](https://app.netlify.com/sites/brianmooremusic/deploys)
 ------  
 additional tools:  
 - [axios](https://github.com/axios/axios)
