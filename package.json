@@ -3,23 +3,23 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "netlify dev",
     "deploy": "git push && netlify watch",
     "start": "sirv public"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^12.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.0.0",
-    "svelte-lazy": "^0.1.15"
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.26.3",
+    "rollup-plugin-livereload": "^1.3.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.24.1",
+    "svelte-lazy": "^1.0.5"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "sirv-cli": "^1.0.0",
+    "sirv-cli": "^1.0.6",
     "smoothscroll-polyfill": "^0.4.4"
   }
 }
