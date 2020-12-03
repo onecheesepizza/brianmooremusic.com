@@ -6,7 +6,7 @@
 
 	//dev tag
 	console.log(`
-	Developed by zebranode 🦓
+	developed by zebranode 🦓
 	https://zebranode.dev
 	https://github.com/zebranode
 	`);
