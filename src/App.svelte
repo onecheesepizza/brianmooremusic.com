@@ -6,9 +6,9 @@
 
 	//dev tag
 	console.log(`
-	Developed by Brian Moore 🍕
-	https://onecheesepizza.dev
-	https://github.com/onecheesepizza
+	Developed by zebranode 🦓
+	https://zebranode.dev
+	https://github.com/zebranode
 	`);
 </script>
 

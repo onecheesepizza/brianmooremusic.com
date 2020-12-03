@@ -1,8 +1,8 @@
 <footer>
 	<p>site by <a 
-		href="https://onecheesepizza.dev" 
+		href="https://zebranode.dev" 
 		target="_blank"
-		rel="noopener noreferrer">onecheesepizza</a>
+		rel="noopener noreferrer">zebranode</a>
 	</p>
 </footer>
 
