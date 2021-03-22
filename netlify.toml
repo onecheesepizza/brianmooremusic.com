@@ -8,17 +8,12 @@
   # Default build command.
   command = "npm run build"
 
-[[redirects]]
-  from = "/api/"
-  to = "https://brianmooremusic-data.netlify.app/api/"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
-  headers = {X-From = "Netlify"}
+  # Netlify functions
+  functions = "functions/"
 
 [[redirects]]
-  from = "/media/*"
-  to = "https://brianmooremusic-data.netlify.app/media/:splat"
+  from = "/api/"
+  to = "/.netlify/functions/data"
   status = 200
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
-  

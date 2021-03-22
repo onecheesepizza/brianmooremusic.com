@@ -18,7 +18,9 @@
     "svelte-lazy": "^1.0.5"
   },
   "dependencies": {
+    "airtable": "^0.10.1",
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "sirv-cli": "^1.0.6",
     "smoothscroll-polyfill": "^0.4.4"
   }

@@ -2,5 +2,6 @@
 /public/build/
 .DS_Store
 *.txt
+.env
 # Local Netlify folder
 .netlify
