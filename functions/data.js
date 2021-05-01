@@ -21,7 +21,7 @@ const getAirtableData = async (table, view, fields) => {
 
 // config
 const config = {
-  location: 'public/',
+  location: 'functions/',
   fileName: 'data.json'
 };
 

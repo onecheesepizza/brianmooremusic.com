@@ -9,7 +9,7 @@ const airtable = require('airtable').base(process.env.AIRTABLE_BASE_ID);
 // config
 const config = {
   url: '/api/',
-  location: 'public/',
+  location: 'functions/',
   fileName: 'data.json'
 };
 
