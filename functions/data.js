@@ -1,6 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
 };
+const path = require('path');
 
 // init Airtable
 const airtable = require('airtable').base(process.env.AIRTABLE_BASE_ID);
@@ -71,7 +72,9 @@ const getData = async (config) => {
   // get data from cache file in production env, 
   if (process.env.NODE_ENV === 'production') {
     console.log('reading data from file');
-    return readDataFile(config.location + config.fileName);
+    // using __dirname since location changes between dev and prod
+    console.log('directory: ', __dirname);
+    return readDataFile(`${__dirname}/${config.fileName}`);
   // get data from live Airtable API otherwise
   } else {
     console.log('reading data from API');
