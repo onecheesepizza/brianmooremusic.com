@@ -2,7 +2,7 @@
   "name": "brianmooreaudio.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
+    "build": "node scripts/cacheData.js && rollup -c",
     "dev": "netlify dev",
     "deploy": "git push && netlify watch",
     "start": "sirv public"
