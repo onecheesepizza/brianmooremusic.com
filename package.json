@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node scripts/cacheData.js && rollup -c",
-    "dev": "netlify dev",
+    "dev": "npm run build && netlify dev",
     "deploy": "git push && netlify watch",
     "start": "sirv public"
   },
