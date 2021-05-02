@@ -5,18 +5,26 @@
     import LoaderIcon from './LoaderIcon.svelte';
     import Post from './Post.svelte';
 
+    // get post data
+    const getData = async (filePath) => {
+        try {
+            // return data from cache file
+            const response = await axios.get(filePath);
+            return response.data;
+        } 
+        catch (err) {
+            console.error(err);
+            console.error('data cache file not found: trying Airtable API');
+            // if error, try to return data from API
+            const response = await axios.get('/api/');
+            return response.data;
+        };
+    };
+
 	// postData state & API fetch
 	let postData=[];
 	onMount(async () =>{
-		await axios.get('/api/')
-			.then(function (response) {
-				// handle success
-                postData = response.data;
-			})
-			.catch(function (error) {
-				// handle error
-				console.log(error);
-			})
+        postData = await getData('data.json');
     });
 </script>
 
